@@ -1,21 +1,25 @@
 <svg width="1500" height="340" viewBox="0 0 1500 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29"/>
-      <stop offset="45%" stop-color="#302b63"/>
-      <stop offset="100%" stop-color="#24243e"/>
+      <stop offset="0%" stop-color="#03045e"/>
+      <stop offset="45%" stop-color="#023e8a"/>
+      <stop offset="100%" stop-color="#0077b6"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff6a00"/>
-      <stop offset="50%" stop-color="#ee0979"/>
-      <stop offset="100%" stop-color="#8e2de2"/>
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="50%" stop-color="#48cae4"/>
+      <stop offset="100%" stop-color="#90e0ef"/>
     </linearGradient>
-    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#4facfe"/>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#90e0ef" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#caf0f8" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#caf0f8" stop-opacity="0.18"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -25,47 +29,50 @@
 
   <rect width="1500" height="340" fill="url(#bg)"/>
 
-  <g opacity="0.15">
+  <g opacity="0.12">
     <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.4" fill="#ffffff"/>
+      <circle cx="2" cy="2" r="1.3" fill="#ffffff"/>
     </pattern>
     <rect width="1500" height="340" fill="url(#dots)"/>
   </g>
 
-  <g transform="translate(1120,60)" opacity="0.9">
-    <path d="M0,120 C60,20 160,20 220,90 C260,140 320,40 380,70" fill="none" stroke="url(#accent2)" stroke-width="3"/>
-    <circle cx="0" cy="120" r="7" fill="#4facfe"/>
-    <circle cx="220" cy="90" r="7" fill="#4facfe"/>
-    <circle cx="380" cy="70" r="7" fill="#4facfe"/>
-    <circle cx="0" cy="120" r="14" fill="none" stroke="#4facfe" stroke-width="1.5"/>
-    <circle cx="220" cy="90" r="14" fill="none" stroke="#4facfe" stroke-width="1.5"/>
+  <path d="M0,300 C250,260 350,320 600,290 C850,260 950,310 1200,280 C1350,262 1420,290 1500,275 L1500,340 L0,340 Z" fill="url(#wave1)"/>
+  <path d="M0,320 C300,295 450,330 700,310 C950,290 1100,325 1500,300 L1500,340 L0,340 Z" fill="url(#wave2)"/>
+
+  <g transform="translate(1080,55)" opacity="0.9">
+    <path d="M0,110 C60,20 160,20 220,80 C260,130 320,30 400,60" fill="none" stroke="#caf0f8" stroke-width="3"/>
+    <circle cx="0" cy="110" r="7" fill="#90e0ef"/>
+    <circle cx="220" cy="80" r="7" fill="#90e0ef"/>
+    <circle cx="400" cy="60" r="7" fill="#90e0ef"/>
+    <circle cx="0" cy="110" r="14" fill="none" stroke="#90e0ef" stroke-width="1.5"/>
+    <circle cx="220" cy="80" r="14" fill="none" stroke="#90e0ef" stroke-width="1.5"/>
   </g>
 
-  <text x="1160" y="270" font-family="Consolas, 'Courier New', monospace" font-size="120" fill="url(#accent)" opacity="0.85" filter="url(#glow)">&lt;/&gt;</text>
+  <text x="1160" y="260" font-family="Consolas, 'Courier New', monospace" font-size="110" fill="url(#accent)" opacity="0.8" filter="url(#glow)">&lt;/&gt;</text>
 
   <text x="80" y="150" font-family="Segoe UI, Verdana, sans-serif" font-size="58" font-weight="700" fill="#ffffff" filter="url(#glow)">
     FORTINA LUMBAN GAOL
   </text>
 
-  <text x="80" y="200" font-family="Segoe UI, Verdana, sans-serif" font-size="26" fill="#c9c9e8">
+  <text x="80" y="200" font-family="Segoe UI, Verdana, sans-serif" font-size="26" fill="#caf0f8">
     Computer Science Student  ·  Design × Code
   </text>
   <rect x="80" y="215" width="430" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <g font-family="Segoe UI, Verdana, sans-serif" font-size="18" fill="#0f0c29" font-weight="600">
-    <rect x="80" y="245" width="90" height="34" rx="17" fill="#F24E1E"/>
+  <g font-family="Segoe UI, Verdana, sans-serif" font-size="18" fill="#03045e" font-weight="600">
+    <rect x="80" y="245" width="90" height="34" rx="17" fill="#90e0ef"/>
     <text x="103" y="268">Figma</text>
 
-    <rect x="182" y="245" width="105" height="34" rx="17" fill="#EA7600"/>
+    <rect x="182" y="245" width="105" height="34" rx="17" fill="#48cae4"/>
     <text x="203" y="268">Blender</text>
 
-    <rect x="299" y="245" width="95" height="34" rx="17" fill="#3776AB"/>
+    <rect x="299" y="245" width="95" height="34" rx="17" fill="#00b4d8"/>
     <text x="317" y="268" fill="#ffffff">Python</text>
 
-    <rect x="406" y="245" width="105" height="34" rx="17" fill="#61DAFB"/>
-    <text x="425" y="268">React</text>
+    <rect x="406" y="245" width="105" height="34" rx="17" fill="#0096c7"/>
+    <text x="425" y="268" fill="#ffffff">React</text>
 
-    <rect x="523" y="245" width="90" height="34" rx="17" fill="#777BB4"/>
-    <text x="543" y="268" fill="#ffffff">PHP</text>
+    <rect x="523" y="245" width="90" height="34" rx="17" fill="#caf0f8"/>
+    <text x="543" y="268">PHP</text>
   </g>
 </svg>
