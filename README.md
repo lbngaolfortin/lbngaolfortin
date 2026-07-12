@@ -1,16 +1,20 @@
-## Hi there 👋
+<div align="center">
+  <img src="./banner.svg" alt="Fortina Lumban Gaol banner" width="100%" />
+</div>
 
-<!--
-**lbngaolfortin/lbngaolfortin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=EE0979&center=true&vCenter=true&width=560&lines=Design+is+how+it+works%2C+not+just+how+it+looks;Belajar+Blender+%2C+Figma%2C+dan+ngoding+bareng;Membangun+ide+jadi+antarmuka+yang+hidup" alt="Typing SVG" />
+</div>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://img.shields.io/badge/Indonesia-🇮🇩-8e2de2?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=lbngaolfortin&label=Profile+Views&color=ee0979&style=flat-square" />
+  <a href="https://www.linkedin.com/in/fortina-lumban-gaol-608411252" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.instagram.com/lbngaol_fortin" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" /></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+### ✦ Tentang Saya
+
+Mahasiswa Ilmu Komputer yang jatuh cinta di persimpangan **desain** dan **kode**. Betah berjam-jam di Figma atau Blender menyusun bentuk, tapi juga senang membongkar logika di balik layar dengan Python, JavaScript, React, PHP, dan Visual Basic.
